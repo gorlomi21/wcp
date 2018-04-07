@@ -1,4 +1,4 @@
-# wcp
+# wc command in C
 A simple implementation of the linux wc command using C Language.There may be some bugs in the program,you are encouraged to fix them.
 Compile:  wcp.c - cc wcp.c -o wcp .
                                                       User Commands                                                                 
