@@ -1,19 +1,23 @@
 # wc command in C
 A simple implementation of the linux wc command using C Language.There may be some bugs in the program,you are encouraged to fix them.
-Compile:  wcp.c - cc wcp.c -o wcp .
-                                                      User Commands                                                                 
+
+Compile:  wcp.c - cc wcp.c -o wcp 
+                                                     
+                                                     User Commands                                                                 
+
 
 NAME
-       ./wcp - print newline, word, and byte counts for each file
+
+        ./wcp - print newline, word, and byte counts for each file
 
 SYNOPSIS
-       ./wcp [OPTION]... [FILE]...
-       ./wcp [OPTION]... --files0-from=F
+        
+        ./wcp [OPTION]... [FILE]...
+        ./wcp [OPTION]... --files0-from=F
 
 DESCRIPTION
-       Print  newline,  word,  and  byte counts for each FILE, and a total line if more than one FILE is specified.  With no FILE, or when FILE is -, read
-       standard input.  A word is a non-zero-length sequence of characters delimited by white space.  The options below may be used to select which counts
-       are printed, always in the following order: newline, word, character, byte, maximum line length.
+ 
+       Print  newline,  word,  and  byte counts for each FILE, and a total line if more than one FILE is specified.  With no FILE, or when FILE is -, read standard input.  A word is a non-zero-length sequence of characters delimited by white space.  The options below may be used to select which counts are printed, default order: newline, word, character, byte, maximum line length.
 
        -c, --bytes
               print the byte counts
